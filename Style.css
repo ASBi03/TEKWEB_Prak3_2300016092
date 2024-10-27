@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+button {
+    padding: 5px 5px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: coral;
+    color: #ddd;
+    border-color: rgb(255, 171, 137);
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #5c4040;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+.fontSlider {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#darkMode {
+    display: block;
+    margin: 10px 0;
+}
+
+.darkMode {
+    background-color: #333;
+    color: #fff;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #333;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#taskList {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.close {
+    color: red;
+    float: right;
+    cursor: pointer;
+}
